@@ -10,7 +10,7 @@ A full-stack MERN real estate management platform with a premium editorial UI in
 - **React 18** + Vite
 - **React Router DOM** v6
 - **Axios** for API calls
-- **Recharts** for analytics charts
+- **Recharts** for analytics chart
 - **Lucide React** icons
 - **React Hot Toast** notifications
 - Custom CSS design system (no Tailwind dependency)
