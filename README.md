@@ -142,7 +142,7 @@ estatex/
 |--------|-----------------------|-----------|
 | POST   | /api/auth/register    | Public    |
 | POST   | /api/auth/login       | Public    |
-| GET    | /api/auth/me          | Private   |
+| GET    |           | Private   |
 | PUT    | /api/auth/profile     | Private   |
 | GET    | /api/auth/users       | Admin     |
 

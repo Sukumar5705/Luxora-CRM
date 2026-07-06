@@ -13,13 +13,11 @@
     }
 
     componentDidCatch(error, info) {
-        // Replace with your logging service (Sentry, Datadog, etc.) in production
         console.error('[ErrorBoundary]', error, info.componentStack);
     }
 
     handleReset = () => {
         this.setState({ hasError: false, error: null });
-        // Navigate home — window.location is acceptable here as a last-resort reset
         window.location.href = '/';
     };
 
