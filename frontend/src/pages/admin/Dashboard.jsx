@@ -228,9 +228,27 @@ export default function Dashboard() {
         {/* Quick Actions */}
         <div style={{ marginTop: '2rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem' }}>
           {[
-            { to: '/admin/add-property', icon: '➕', label: 'Add New Property',    desc: 'List a new property',       color: 'var(--gold)' },
-            { to: '/admin/properties',   icon: '📋', label: 'Manage Properties',  desc: 'Edit or delete listings',   color: '#6495ED' },
-            { to: '/properties',         icon: '🏠', label: 'View Frontend',      desc: 'See user-facing site',      color: '#9B59B6' },
+           {
+  to: '/admin/add-property',
+  icon: '➕',
+  label: 'Add New Property',
+  desc: 'List a new property',
+  color: 'var(--gold)',
+},
+{
+  to: '/admin/properties',
+  icon: '📋',
+  label: 'Manage Properties',
+  desc: 'Edit or delete listings',
+  color: 'var(--blue)',
+},
+{
+  to: '/properties',
+  icon: '🏠',
+  label: 'View Frontend',
+  desc: 'See user-facing site',
+  color: 'var(--purple)',
+},
           ].map(a => (
             <Link key={a.to} to={a.to}
               style={{ padding: '1.5rem', borderRadius: 'var(--radius-lg)', background: 'var(--bg-elevated)', border: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '1rem', transition: 'all 0.3s', textDecoration: 'none' }}
