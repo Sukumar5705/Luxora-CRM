@@ -87,7 +87,7 @@ export default function Login() {
         <div style={{ background: 'var(--ivory)', border: '1px solid var(--border)', borderRadius: 10, padding: '1rem 1.25rem', marginBottom: '1.75rem' }}>
           <p style={{ fontSize: '0.78rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>Demo Credentials</p>
           <p style={{ fontSize: '0.84rem', color: 'var(--text-body)' }}>
-            <strong>Admin:</strong> admin@luxestate.com / admin123
+            <strong>User:</strong> user@estatex.com/ user1234
           </p>
         </div>
 
