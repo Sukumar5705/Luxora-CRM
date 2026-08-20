@@ -80,7 +80,20 @@ function HeroSection() {
 
       <div className="container" style={{ position: 'relative', zIndex: 2, paddingTop: '8rem', paddingBottom: '6rem' }}>
         <div style={{ maxWidth: 700 }}>
-        
+         {/* Tag pill */}
+          <div style={{
+            display: 'inline-flex', alignItems: 'center', gap: '0.6rem',
+            padding: '0.4rem 1.1rem', borderRadius: 100,
+            border: '1px solid rgba(201,168,76,0.3)',
+            background: 'rgba(201,168,76,0.08)',
+            marginBottom: '2rem',
+            animation: 'fadeLeft 0.6s ease 0.1s both',
+          }}>
+            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--gold)', animation: 'pulse 2s infinite' }} />
+            <span style={{ fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--gold)' }}>
+              Premium Real Estate — Est. 2025
+            </span>
+          </div>
 
           {/* Headline */}
           <h1 style={{
